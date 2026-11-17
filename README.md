@@ -36,3 +36,4 @@ git blame count.txt
 ## Decisions
 
 - [0001 - The count is a plain text file](docs/adr/0001-plain-text-count.md)
+- [0002 - Nothing reaches main without a pull request](docs/adr/0002-pull-requests-only.md)
