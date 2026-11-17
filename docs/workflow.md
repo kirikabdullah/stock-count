@@ -9,3 +9,16 @@ flowchart LR
     E -- changes asked --> C
     E -- approved --> F[Merge into main]
 ```
+
+## Who talks to whom
+
+```mermaid
+sequenceDiagram
+    participant You
+    participant GitHub
+    participant Kaan
+    Kaan->>GitHub: git push
+    You->>GitHub: git fetch
+    GitHub-->>You: Kaan's commit
+    You->>You: git merge
+```
